@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MineSweeperGame.Model\MineSweeperGame.Model.csproj" />
+    <ProjectReference Include="..\MineSweeperGame.Persistence.Text\MineSweeperGame.Persistence.Text.csproj" />
+  </ItemGroup>
+
+</Project>
